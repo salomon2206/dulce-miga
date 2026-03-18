@@ -1,0 +1,167 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Georgia, serif;
+  color: #3b2a1a;
+  background-color: #fff9f4;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 60px;
+  background-color: #f5e6d3;
+}
+
+.logo {
+  font-size: 1.8rem;
+  font-weight: bold;
+  color: #c0392b;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 30px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #3b2a1a;
+  font-size: 1rem;
+}
+
+#inicio {
+  text-align: center;
+  padding: 100px 60px;
+  background-color: #fff9f4;
+}
+
+#inicio h1 {
+  font-size: 3rem;
+  color: #c0392b;
+  margin-bottom: 20px;
+}
+
+#inicio p {
+  font-size: 1.2rem;
+  color: #8b5e3c;
+  margin-bottom: 40px;
+}
+
+#inicio a {
+  background-color: #c0392b;
+  color: white;
+  padding: 14px 36px;
+  text-decoration: none;
+  border-radius: 3px;
+  font-size: 1rem;
+}
+
+#inicio a:hover {
+  background-color: #3b2a1a;
+}
+
+#menu {
+  text-align: center;
+  padding: 100px 60px;
+  background-color: #fff9f4;
+}
+
+#menu h1 {
+  font-size: 3rem;
+  color: #c0392b;
+  margin-bottom: 20px;
+}
+
+#menu p {
+  font-size: 1.2rem;
+  color: #8b5e3c;
+  margin-bottom: 40px;
+}
+
+#menu a {
+  background-color: #c0392b;
+  color: white;
+  padding: 14px 36px;
+  text-decoration: none;
+  border-radius: 3px;
+  font-size: 1rem;
+}
+
+#menu a:hover {
+  background-color: #3b2a1a;
+}
+
+#menu {
+  padding: 80px 60px;
+  text-align: center;
+  background-color: #fdf0e0;
+}
+
+#menu h2 {
+  font-size: 2.5rem;
+  color: #3b2a1a;
+  margin-bottom: 40px;
+}
+
+.tarjeta {
+  display: inline-block;
+  width: 28%;
+  margin: 10px;
+  padding: 30px 20px;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+  vertical-align: top;
+}
+
+.tarjeta h3 {
+  font-size: 1.3rem;
+  margin-bottom: 12px;
+  color: #3b2a1a;
+}
+
+.tarjeta p {
+  font-size: 0.95rem;
+  color: #8b5e3c;
+  margin-bottom: 16px;
+  line-height: 1.6;
+}
+
+.tarjeta span {
+  font-size: 1.4rem;
+  font-weight: bold;
+  color: #c0392b;
+}
+
+#contacto {
+  padding: 80px 60px;
+  text-align: center;
+}
+
+#contacto h2 {
+  font-size: 2.5rem;
+  color: #c0392b;
+  margin-bottom: 30px;
+}
+
+#contacto p {
+  font-size: 1.1rem;
+  color: #8b5e3c;
+  margin-bottom: 12px;
+  line-height: 1.8;
+}
+
+footer {
+  background-color: #3b2a1a;
+  color: #fff9f4;
+  text-align: center;
+  padding: 24px;
+  font-size: 0.9rem;
+}
